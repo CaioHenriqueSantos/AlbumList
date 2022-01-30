@@ -6,9 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="glider.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
     <title>AlbumList</title>
 </head>
 <body>
@@ -30,7 +32,7 @@
             <h1>Anavitória</h1>
             <p class="description-release">Quais artistas – brasileiros ou internacionais – podem ser gabar de, em um intervalo de três anos, lançar o álbum de estreia, ganhar um dos prêmios mais importantes da música e ainda ter um filme sobre suas vidas exibido nos cinemas?...</p>
             <button type="button" class="button-2">
-                View on Apple Music
+                View on Spotify
             </button>
         </div>
         <hr>
@@ -52,8 +54,66 @@
         </div>
         <p class="description-release">A dupla Anavitória apresenta seu primeiro álbum com onze faixas que vão fazer você sorrir de orelha a orelha, como diz a letra de “Chamego Meu”. Ana Caetano e Vitória...</p>
         <button type="button" class="button-2">
-            Listen on Apple Music
+            Listen on Spotify
         </button>
+        <div class="music">
+            <p>Aqui sera as musicas</p>
+            <p>Aqui sera as musicas</p>
+            <p>Aqui sera as musicas</p>
+            <p>Aqui sera as musicas</p>
+        </div>
+        <div class="artist">
+            <h1>Artistas Semalhantes</h1>
+            <article>
+                <div class="glider-contain">
+                   <div class="glider">
+                    <div class="carousel" style="width: 40;">
+                            <a href="">
+                                <img class="img-artists"            src="Imagens/melinimg.png" alt="banda-melim">
+                            </a>
+                            <h3>Melim</h3>
+                    </div>
+                    <div class="carousel">
+                        <a href="">
+                            <img class="img-artists" src="Imagens/tie.png"
+                            alt="tie-foto">
+                        </a>
+                        <h3>Tiê</h3>
+                    </div>
+                    <div class="carousel">
+                        <a href="">
+                            <img class="img-artists" src="Imagens/tiagoiorcimg.png" alt="tiago-iorc">
+                        </a>
+                        <h3>Tiago Iorc</h3>
+                    </div>
+                    <div class="carousel">
+                        <a href="">
+                            <img class="img-artists" src="Imagens/Robertaimg.png" alt="roberta-campos">
+                        </a>
+                        <h3>Roberta Campos</h3>
+                    </div>
+                    <div class="carousel">
+                        <a href="">
+                            <img class="img-artists" src="Imagens/Sandyimg.png" alt="Sandy-imagem">
+                        </a>
+                        <h3>Sandy</h3>
+                    </div>
+                   </div>
+            </article>
+            </div>   
+        </div>
     </section>
+    <footer>
+        <p class="copyrigth"> Copyrigth &copy; 2022 Desafio Serasa</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+    <script>
+        window.addEventListener('load', function(){
+            new Glider(document.querySelector('.glider'), {
+            })
+        })
+    </script>
+
 </body>
 </html>

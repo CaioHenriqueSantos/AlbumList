@@ -4,116 +4,201 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" type="text/css" href="glider.css">
+    <link rel="stylesheet" href="styles/reset.css" />
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="stylesheet" type="text/css" href="styles/glider.css">
+    <link rel="icon" type="imagem/png" href="Imagens/anavitoriaplayermobile.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css" rel="stylesheet">
+
+    <script type="text/javascript" src="src/carousel.js"></script>
+
     <title>AlbumList</title>
+
 </head>
 <body>
     <header class="banner">
-        <div class="box">
+        <section class="box">
             <img id="ellipse" src="Imagens/Ellipse 15.svg" alt="Ellipse">
-            <img id="player1" src="Imagens/anavitoriaplayermobile.png" alt="imagem-foto-album-duas-mulheres">
-            <ul class="title">
-                <li id="name">Anavitória</li>
-                <li id="year">Álbum 2016</li>
-            </ul>
-        </div>
+            <img id="player1" src="Imagens/img-banner.png" alt="imagem-foto-album-duas-mulheres">
+            <div class="banner-content">
+                <ul class="title">
+                    <li id="name">Anavitória</li>
+                    <li id="year">Álbum 2016</li>
+                </ul>
+                <a href="#music-player">
+                    <button type="button" id="button">
+                    Play
+                    </button>
+                </a>
+            </div>
+        </section>
     </header>
-    <button type="button" id="button">
-        Play
-    </button>
     <section class="container">
-        <div class="release">
-            <h1>Anavitória</h1>
-            <p class="description-release">Quais artistas – brasileiros ou internacionais – podem ser gabar de, em um intervalo de três anos, lançar o álbum de estreia, ganhar um dos prêmios mais importantes da música e ainda ter um filme sobre suas vidas exibido nos cinemas?...</p>
-            <button type="button" class="button-2">
-                View on Spotify
-            </button>
-        </div>
-        <hr>
-        <h2>Origem</h2>
-        <p class="info">Araguaína, Tocantins</p>
-        <hr>
-        <h2>Gênero</h2>
-        <p class="info">Pop</p>
-        <hr>
-        <h2>Desde</h2>
-        <p class="info">2014</p>
-        <hr>
-        <div class="album">
-            <img id="player-2" src="Imagens/AlbumAna2mobile.png" alt="imagem-foto-album-duas-mulheres">
+        <div class="realease-container">
+            <div class="release">
+                <h1>Anavitória</h1>
+                <p class="description-release">
+                Quais artistas – brasileiros ou internacionais – podem ser gabar de, em um intervalo de três anos, lançar o álbum de estreia, ganhar um dos prêmios mais importantes da música e ainda ter um filme sobre suas vidas exibido nos cinemas?...
+                </p>
+                <a href="https://open.spotify.com/artist/1sPg5EHuQXTMElpZ4iUgXe" target="_blank">
+                    <button type="button" class="button-2">
+                    View on Spotify
+                    </button>
+                </a>
+            </div>
+            <div class="information-group">
+                <hr>
+                <h2>Origem</h2>
+                    <p class="info">Araguaína, Tocantins</p>
+                <hr>
+                <h2>Gênero</h2>
+                    <p class="info">Pop</p>
+                <hr>
+                <h2>Desde</h2>
+                    <p class="info">2014</p>
+                <hr>
+            </div>
+        </div>   
+            <div class="album" id="music-player">
+                <img id="player-2" src="Imagens/AlbumAna2mobile.png" alt="imagem-foto-album-duas-mulheres">
                 <ul class="title-2">
                     <li id="name-2">Anavitória</li>
                     <li id="year-2">Álbum 2016</li>
                 </ul>
-        </div>
-        <p class="description-release">A dupla Anavitória apresenta seu primeiro álbum com onze faixas que vão fazer você sorrir de orelha a orelha, como diz a letra de “Chamego Meu”. Ana Caetano e Vitória...</p>
-        <button type="button" class="button-2">
-            Listen on Spotify
-        </button>
+            </div>
+            <p class="description-release">A dupla Anavitória apresenta seu primeiro álbum com onze faixas que vão fazer você sorrir de orelha a orelha, como diz a letra de “Chamego Meu”. Ana Caetano e Vitória...</p>
+            <a href="https://open.spotify.com/album/2UkBU2McOTulQ1Ki7OwDIw?si=ZXtw_IBaQwKBLs8m_CYMtA" target="_blank">
+                <button type="button" class="button-2">
+                    Listen on Spotify
+                </button>
+            </a>
+            <div class="music">
+                <img src="Imagens/anavitoriaplayermobile.png" alt="">
+                <div class="information">
+                    <h2>Agora Eu Quero Ir</h2>
+                    <p class="music-album">Álbum 2016</p>
+                    <span>00:30</span>
+                </div>
+            </div>
+            <div class="music">
+                <img src="Imagens/anavitoriaplayermobile.png" alt="music-img">
+                <div class="information">
+                    <h2>Cor De Marte</h2>
+                    <p class="music-album">Álbum 2016</p>
+                    <span>00:30</span>
+                </div>
+            </div>
+            <div class="music">
+                <img src="Imagens/anavitoriaplayermobile.png" alt="music-img">
+                <div class="information">
+                    <h2>Singular</h2>
+                    <p class="music-album">Álbum 2016</p>
+                    <span>00:30</span>
+                </div>
+            </div>
+            <div class="music">
+                <img src="Imagens/anavitoriaplayermobile.png" alt="music-img">
+                <div class="information">
+                    <h2>Chamego Meu</h2>
+                    <p class="music-album">Álbum 2016</p>
+                    <span>00:30</span>
+                </div>
+            </div>
+            <div class="album">
+                <img id="player-2" src="Imagens/thisisanamobile.png" alt="imagem-foto-album-duas-mulheres">
+                <ul class="title-2">
+                    <li id="name-2">Anavitória</li>
+                    <li id="year-2">This is Anavitória </li>
+                </ul>
+            </div>
+            </div>
+            <div>
+                <p class="description-release">Ouça os grandes sucessos da dupla que vem conquistando o país!
+                </p>
+                <a href="https://open.spotify.com/playlist/37i9dQZF1DXd30i5K7UVpZ" target="_blank">
+                    <button type="button" class="button-2">
+                        View on Spotify
+                    </button>
+                </a>
+                <div class="music">
+                    <img src="Imagens/thisisAnaVitoria/geleiraalbum.png" alt="music-img">
+                    <div class="information">
+                        <h2>Geleira Do Tempo</h2>
+                        <p class="music-album">ANAVITÓRIA</p>
+                        <span>00:30</span>
+                    </div>
+                </div>
         <div class="music">
-            <p>Aqui sera as musicas</p>
-            <p>Aqui sera as musicas</p>
-            <p>Aqui sera as musicas</p>
-            <p>Aqui sera as musicas</p>
+            <img src="Imagens/thisisAnaVitoria/aguei.png" alt="music-img">
+            <div class="information">
+                <h2>Aguei</h2>
+                <p class="music-album">ANAVITÓRIA</p>
+                <span>00:30</span>
+            </div>
+        </div>
+        <div class="music">
+            <img src="Imagens/thisisAnaVitoria/precisomeencontrar.png" alt="music-img">
+            <div class="information">
+                <h2>Preciso Me Encontrar</h2>
+                <p class="music-album">ANAVITÓRIA</p>
+                <span>00:30</span>
+            </div>
+        </div>
+        <div class="music">
+            <img src="Imagens/thisisAnaVitoria/lisboamadri.png" alt="music-img">
+            <div class="information">
+                <h2>Lisboa Madri</h2>
+                <p class="music-album">ANAVITÓRIA</p>
+                <span>00:30</span>
+            </div>
         </div>
         <div class="artist">
             <h1>Artistas Semalhantes</h1>
-            <article>
                 <div class="glider-contain">
-                   <div class="glider">
-                    <div class="carousel" style="width: 40;">
-                            <a href="">
-                                <img class="img-artists"            src="Imagens/melinimg.png" alt="banda-melim">
+                    <div class="glider">
+                        <div class="card-image">
+                            <a target="_blank" href="https://open.spotify.com/album/5zj7hdfXIpN0OV2aFbk27J">
+                                <img src="Imagens/melinimg.png" alt="Slider Image">
                             </a>
                             <h3>Melim</h3>
+                        </div>
+                        <div class="card-image">
+                            <a target="_blank" href="https://open.spotify.com/album/0AnPVjaIQm1ob9NFZOPrMv">
+                                <img src="Imagens/tie.png"alt="Slider Image">
+                            </a>
+                            <h3>Tiê</h3>
+                        </div>
+                        <div class="card-image">
+                            <a target="_blank" href="https://open.spotify.com/album/5LUU2qbeKoPUzCcvBSFN6k">
+                                <img src="Imagens/tiagoiorcimg.png"alt="Slider Image">
+                            </a>
+                            <h3>Tiago Iorc</h3>
+                        </div>
+                        <div class="card-image">
+                            <a target="_blank" href="https://open.spotify.com/album/1M3RZvnxDHr86aXG0eXIZS">
+                                <img src="Imagens/Robertaimg.png"alt="Slider Image">
+                            </a>
+                            <h3>Roberta Campos</h3>
+                        </div>
+                        <div class="card-image">
+                            <a target="_blank"href="https://open.spotify.com/album/2HWuQEivGHPHr5TkJtltPI">
+                                <img src="Imagens/Sandyimg.png"alt="Slider Image">
+                            </a>
+                            <h3>Sandy</h3>
+                        </div>
                     </div>
-                    <div class="carousel">
-                        <a href="">
-                            <img class="img-artists" src="Imagens/tie.png"
-                            alt="tie-foto">
-                        </a>
-                        <h3>Tiê</h3>
-                    </div>
-                    <div class="carousel">
-                        <a href="">
-                            <img class="img-artists" src="Imagens/tiagoiorcimg.png" alt="tiago-iorc">
-                        </a>
-                        <h3>Tiago Iorc</h3>
-                    </div>
-                    <div class="carousel">
-                        <a href="">
-                            <img class="img-artists" src="Imagens/Robertaimg.png" alt="roberta-campos">
-                        </a>
-                        <h3>Roberta Campos</h3>
-                    </div>
-                    <div class="carousel">
-                        <a href="">
-                            <img class="img-artists" src="Imagens/Sandyimg.png" alt="Sandy-imagem">
-                        </a>
-                        <h3>Sandy</h3>
-                    </div>
-                   </div>
-            </article>
-            </div>   
-        </div>
+                </div>
     </section>
     <footer>
         <p class="copyrigth"> Copyrigth &copy; 2022 Desafio Serasa</p>
     </footer>
 
+    <!-- Carrossel -->
     <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
-    <script>
-        window.addEventListener('load', function(){
-            new Glider(document.querySelector('.glider'), {
-            })
-        })
-    </script>
 
 </body>
 </html>

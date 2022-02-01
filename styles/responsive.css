@@ -1,0 +1,65 @@
+@media ( min-width: 768px ) {
+
+    #ellipse {
+        position: absolute;
+        right: 400px;
+    }
+
+    .banner {
+        height: 371px;
+    }
+
+    .box {
+        display: flex;
+        justify-content: center;
+    }
+
+    .title {
+        padding: 85px 0 0 16px;
+    }
+
+    #name {
+        font-size: 32px;
+    }
+
+    #year {
+        font-size: 24px;
+    }
+
+    #player1 {
+        padding: 64px 0;
+        height: 243px;
+        width: 243px;
+    }
+
+    #button {
+        position: static;
+        width: 255px;
+        height: 52px;
+        font-size: 24px;
+        margin: 54px 0 0 8px;
+    }
+
+    .container {
+        margin: 0 120px 0 120px;
+    }
+
+    .realease-container {
+        display: flex;
+        flex-direction: row;
+        
+    }
+
+    .description-release {
+        padding-right: 48px;
+        text-align: justify;
+    }
+
+    .information-group {
+        margin-top: 64px;
+    }
+
+    hr {
+       width: 0px;
+    }
+}

@@ -80,7 +80,7 @@
                 <img src="Imagens/anavitoriaplayermobile.png" alt="">
                 <div class="information">
                     <h2 id="test"></h2>
-                    <p class="music-album">Álbum 2016</p>
+                    <p class="music-album" id="test2"></p>
                     <span>00:30</span>
                 </div>
             </div>
@@ -203,8 +203,8 @@
     <script src="src/Spotify/index.js" type="text/javascript"></script>
 
     <script>
-        const clientId = '4607e8124051466cabc22cdfba7635d8';
-        const clientSecret = '8292a00bc4eb4e38999104e79151eb88';
+        const clientId = 'c95e84f867b14c0abe30c188c5dfe21d';
+        const clientSecret = 'c303200f867f4731a4aebd90424ff3fe';
         const albumId = '2UkBU2McOTulQ1Ki7OwDIw'
         const playlistId = '37i9dQZF1DXd30i5K7UVpZ'
         
@@ -265,9 +265,8 @@
 
         // $('#test').text(album[0].name);
 
-        document.querySelector("#test").innerHTML =album[0].name
-
-        console.log("Teste:" + album[0].name);
+        document.querySelector("#test").innerHTML =track[0].name
+        document.querySelector("#test2").innerHTML =playlist[0].images
 
         })()
     </script>

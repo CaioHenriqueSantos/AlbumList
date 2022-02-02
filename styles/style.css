@@ -7,6 +7,8 @@ body {
 }
 
 .banner {
+  display: flex;
+  justify-content: center;
   height: 200px;
   width: 100%;
   background-color: #efbb87;
@@ -19,7 +21,7 @@ body {
 
 #ellipse {
   position: absolute;
-  right: 141px;
+  right: 16rem;
 }
 
 #player1 {
@@ -37,7 +39,7 @@ body {
 
 #name {
   font-weight: 800;
-  font-size: 22px;
+  font-size: 20px;
   letter-spacing: 1.5px;
   margin-bottom: 8px;
 }
@@ -50,7 +52,7 @@ body {
 }
 
 #button {
-  padding: 8px 89px 8px 84px;
+  padding: 8px 89px 8px 89px;
   border-radius: 24px;
   outline: none;
   border: none;
@@ -60,7 +62,7 @@ body {
   font-weight: 500;
   letter-spacing: 0.5px;
   position: absolute;
-  left: 75px;
+  left: 80px;
   top: 135px;
   cursor: pointer;
 }
@@ -78,7 +80,7 @@ body {
 }
 
 h1 {
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 800;
   color: black;
   margin-bottom: 16px;
@@ -118,7 +120,7 @@ hr {
 h2 {
   font-size: 16px;
   font-weight: 600;
-  opacity: 85%;
+  opacity: 70%;
   color: black;
   margin-bottom: 8px;
 }
@@ -149,7 +151,7 @@ h2 {
 
 #name-2 {
   font-weight: 800;
-  font-size: 22px;
+  font-size: 20px;
   letter-spacing: 1.5px;
   margin-bottom: 8px;
 }

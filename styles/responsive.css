@@ -1,0 +1,152 @@
+/* Medium 768px (tablets) */
+
+@media (min-width: 768px) {
+    #ellipse {
+        right: 30rem;
+    }
+    .banner {
+        height: 371px;
+    }
+    .box {
+        display: flex;
+        justify-content: center;
+    }
+    .title {
+        padding: 75px 0 0 16px;
+    }
+    #name {
+        font-size: 24px;
+    }
+    #year {
+        font-size: 16px;
+    }
+    #player1 {
+        padding: 64px 0;
+        height: 200px;
+        width: 200px;
+    }
+    #button {
+        position: static;
+        width: 220px;
+        height: 40px;
+        font-size: 20px;
+        margin: 64px 0 0 16px;
+    }
+    .container {
+        margin: 0 120px 0 120px;
+    }
+    .description-release1 {
+        padding-right: 48px;
+        text-align: justify;
+        font-size: 20px;
+    }
+}
+
+
+/* Desktop (1600px) */
+
+@media (min-width: 1600px) {
+    #ellipse {
+        right: 64rem;
+    }
+    .banner {
+        height: 371px;
+    }
+    .box {
+        display: flex;
+        justify-content: center;
+    }
+    .title {
+        padding: 75px 0 0 16px;
+    }
+    #name {
+        font-size: 24px;
+    }
+    #year {
+        font-size: 16px;
+    }
+    #player1 {
+        padding: 64px 0;
+        height: 200px;
+        width: 200px;
+    }
+    #button {
+        position: static;
+        width: 220px;
+        height: 40px;
+        font-size: 20px;
+        margin: 64px 0 0 16px;
+    }
+    .container {
+        margin: 0 400px 0 400px;
+    }
+    .release {
+        margin: 0 0 40px 0;
+    }
+    .description-release1 {
+        color: #878787;
+        width: 707px;
+        height: 128px;
+        left: 228px;
+        top: 497px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .description-release {
+        width: 350px;
+        left: 130px;
+        top: 497px;
+        font-size: 20px;
+        line-height: 24px;
+    }
+    .release-container {
+        display: flex;
+        margin: 40px 0;
+        flex-direction: row;
+        justify-content: space-between;
+        border-bottom: solid 1px #d1d1d1;
+    }
+    hr {
+        width: 0;
+    }
+    #player-2 {
+        width: 354px;
+        height: 354px;
+    }
+    .album {
+        display: flex;
+        flex-direction: column;
+        margin-right: 150px;
+    }
+    .music-group-responsive {
+        margin-top: 16px;
+    }
+    #name-album {
+        font-size: 20px;
+        opacity: 60%;
+        font-weight: 600;
+        margin-left: 4px;
+    }
+    .title-2 {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0;
+    }
+    .container-album {
+        display: flex;
+        flex-direction: row;
+    }
+    #player-2 {
+        margin-top: 32px;
+    }
+    .container-track {
+        display: flex;
+        flex-direction: row;
+    }
+    #year-2 {
+        font-size: 16px;
+    }
+    .artist {
+        margin-top: 64px;
+    }
+}

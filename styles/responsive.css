@@ -100,13 +100,22 @@
     margin: 0 0 40px 0;
   }
 
-  .description-release {
+  .description-release1 {
+    color: #878787;
     width: 780px;
     height: 128px;
     left: 228px;
     top: 497px;
     font-size: 20px;
-    line-height: 32px;
+    line-height: 24px;
+  }
+
+  .description-release {
+    width: 780px;
+    left: 228px;
+    top: 497px;
+    font-size: 20px;
+    line-height: 24px;
   }
 
   .release-container {
@@ -119,5 +128,33 @@
 
   hr {
     width: 0;
+  }
+
+  #player-2 {
+    width: 200px;
+    height: 200px;
+  }
+
+  .album {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #name-album {
+    font-size: 20px;
+    opacity: 60%;
+    font-weight: 600;
+    margin-left: 4px;
+  }
+
+  .title-2 {
+    display: flex;
+    flex-direction: row;
+    margin-left: 0;
+  }
+
+  .container-album {
+    display: flex;
+    flex-direction: row;
   }
 }

@@ -1,65 +1,123 @@
-@media ( min-width: 768px ) {
+/* Medium 768px (tablets) */
 
-    #ellipse {
-        position: absolute;
-        right: 400px;
-    }
+@media (min-width: 768px) {
+  #ellipse {
+    right: 30rem;
+  }
 
-    .banner {
-        height: 371px;
-    }
+  .banner {
+    height: 371px;
+  }
 
-    .box {
-        display: flex;
-        justify-content: center;
-    }
+  .box {
+    display: flex;
+    justify-content: center;
+  }
 
-    .title {
-        padding: 85px 0 0 16px;
-    }
+  .title {
+    padding: 75px 0 0 16px;
+  }
 
-    #name {
-        font-size: 32px;
-    }
+  #name {
+    font-size: 24px;
+  }
 
-    #year {
-        font-size: 24px;
-    }
+  #year {
+    font-size: 16px;
+  }
 
-    #player1 {
-        padding: 64px 0;
-        height: 243px;
-        width: 243px;
-    }
+  #player1 {
+    padding: 64px 0;
+    height: 200px;
+    width: 200px;
+  }
 
-    #button {
-        position: static;
-        width: 255px;
-        height: 52px;
-        font-size: 24px;
-        margin: 54px 0 0 8px;
-    }
+  #button {
+    position: static;
+    width: 220px;
+    height: 40px;
+    font-size: 20px;
+    margin: 64px 0 0 16px;
+  }
 
-    .container {
-        margin: 0 120px 0 120px;
-    }
+  .container {
+    margin: 0 120px 0 120px;
+  }
 
-    .realease-container {
-        display: flex;
-        flex-direction: row;
-        
-    }
+  .description-release {
+    padding-right: 48px;
+    text-align: justify;
+    font-size: 20px;
+  }
+}
 
-    .description-release {
-        padding-right: 48px;
-        text-align: justify;
-    }
+/* Desktop (1024px) */
+@media (min-width: 1024px) {
+  #ellipse {
+    right: 64rem;
+  }
 
-    .information-group {
-        margin-top: 64px;
-    }
+  .banner {
+    height: 371px;
+  }
 
-    hr {
-       width: 0px;
-    }
+  .box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .title {
+    padding: 75px 0 0 16px;
+  }
+
+  #name {
+    font-size: 24px;
+  }
+
+  #year {
+    font-size: 16px;
+  }
+
+  #player1 {
+    padding: 64px 0;
+    height: 200px;
+    width: 200px;
+  }
+
+  #button {
+    position: static;
+    width: 220px;
+    height: 40px;
+    font-size: 20px;
+    margin: 64px 0 0 16px;
+  }
+
+  .container {
+    margin: 0 228px 0 228px;
+  }
+
+  .release {
+    margin: 0 0 40px 0;
+  }
+
+  .description-release {
+    width: 780px;
+    height: 128px;
+    left: 228px;
+    top: 497px;
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  .release-container {
+    display: flex;
+    margin: 40px 0;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: solid 1px #d1d1d1;
+  }
+
+  hr {
+    width: 0;
+  }
 }

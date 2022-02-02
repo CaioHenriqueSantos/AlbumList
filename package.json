@@ -17,6 +17,8 @@
   },
   "homepage": "https://github.com/CaioHenriqueSantos/AlbumList#readme",
   "dependencies": {
+    "node-fetch": "^3.2.0",
     "spotify-web-api-js": "^1.5.2"
-  }
+  }, 
+  "type": "module"
 }

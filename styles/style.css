@@ -120,7 +120,7 @@ h1 {
 }
 
 .button-1:hover,
-.button-2:before,
+.button-2:hover,
 .button-3:hover {
     box-shadow: inset 2px 2px 2px 1px rgba(255, 198, 141, 0.33);
 }
